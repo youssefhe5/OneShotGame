@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e5a05cdd5778d6f4d8ded92c5ea48b5e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mandalore Laser Rough
+  fontNames:
+  - Mandalore Laser Rough
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6ba4a65b5a516664a819f17f5bc3cd20, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

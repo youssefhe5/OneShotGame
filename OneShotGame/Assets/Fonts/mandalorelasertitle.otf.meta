@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: bb0af11623171aa4ba69e00b3e38c331
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mandalore Laser Title
+  fontNames:
+  - Mandalore Laser Title
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 92a14303c94da4341a194cbebfd9ac6a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: c6d716109f772a642b76a04f9cd6be3e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mandalore Expanded Italic
+  fontNames:
+  - Mandalore Expanded Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8160ee56a297baa4abf5a4ce8a259460, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

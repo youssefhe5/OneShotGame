@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b83d30da0caec534082d9563e077cda1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mandalore Semi-Italic
+  fontNames:
+  - Mandalore Semi-Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7768f611eb63e394f926cb7ae66017ed, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

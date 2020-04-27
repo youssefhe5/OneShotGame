@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: a75f36cbfe94fd846806f0e7fda6eefb
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mandalore Rough Italic
+  fontNames:
+  - Mandalore Rough Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7d942bba13a83e749ab63e095a8fa076, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

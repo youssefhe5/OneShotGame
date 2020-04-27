@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ef60cf37254c047409741a45b44b3651
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mandalore Rough
+  fontNames:
+  - Mandalore Rough
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: aec3e91e3074a2e4798dd66223e88351, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

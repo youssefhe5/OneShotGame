@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ad8fe31d3d6870c4d867778ea5d7204b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mandalore Halftone Italic
+  fontNames:
+  - Mandalore Halftone Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1259969839624cc4da6fc514a9ea56ff, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

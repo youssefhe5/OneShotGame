@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b1cca5c5373c0d44891c11829c2f84ce
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mandalore Condensed
+  fontNames:
+  - Mandalore Condensed
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: aa6f38f7daa7b384b81da2e836b4a8e1, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

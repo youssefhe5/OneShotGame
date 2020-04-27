@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b5275c191c0efed4e85f3aa377c08218
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mandalore Laser Italic
+  fontNames:
+  - Mandalore Laser Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a69461c8733ded847939f9f73fe14771, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

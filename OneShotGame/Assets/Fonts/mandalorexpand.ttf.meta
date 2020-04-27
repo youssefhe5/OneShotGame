@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: fcfd2a60013d51343ad30b19786d553f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mandalore Expanded
+  fontNames:
+  - Mandalore Expanded
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e25e06eb061ef1241bcf44ba9379dd0d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
