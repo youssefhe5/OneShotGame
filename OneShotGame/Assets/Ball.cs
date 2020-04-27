@@ -8,7 +8,7 @@ public class Ball : MonoBehaviour
     Vector2 touchStartingPosition;
     Vector2 touchEndingPosition;
     private Rigidbody2D rb;
-    bool canMove = false;
+    bool canMove;
     public Vector2 startingPosition = new Vector2(-0.7793833f, -1.404789f);
     public int force = 2;
     public int frameRate = 60;
@@ -42,6 +42,7 @@ public class Ball : MonoBehaviour
                     touchEndingPosition = Input.GetTouch(0).position;
                     rb.isKinematic = false;
                     rb.AddForce(force * (touchStartingPosition - touchEndingPosition));
+                    canMove = false;
                 }
             }
 
