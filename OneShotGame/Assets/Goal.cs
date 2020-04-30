@@ -10,6 +10,7 @@ public class Goal : MonoBehaviour
     {
         if (collision.gameObject.name.StartsWith("Ball"))
         {
+            Ball.complete = true;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             LevelScript.Pass();
         }

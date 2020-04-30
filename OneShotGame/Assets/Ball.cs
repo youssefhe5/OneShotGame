@@ -13,10 +13,12 @@ public class Ball : MonoBehaviour
     public int force = 2;
     public int frameRate = 60;
     private Touch touch;
+    public static bool complete;
 
 
     void Start()
     {
+        complete = false;
         canMove = true;
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = new Vector2(0, 0);
@@ -25,7 +27,7 @@ public class Ball : MonoBehaviour
         //Application.targetFrameRate = frameRate;
     }
 
-    private void Update()
+    void Update()
     {
         if (Input.touchCount > 0)
         {
@@ -50,17 +52,7 @@ public class Ball : MonoBehaviour
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
-
-            /*
-             if (touchStartingPosition.y < -3.5)
-            {
-                if (touchStartingPosition.x - touchEndingPosition.x < 0)
-                {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-                }
-            }
-            */
-
+            
         }
 
     }
@@ -72,6 +64,7 @@ public class Ball : MonoBehaviour
             touchEndingPosition = Input.mousePosition;
             rb.isKinematic = false;
             rb.AddForce(force * (touchStartingPosition - touchEndingPosition));
+            canMove = false;
         }
         
                     
@@ -91,6 +84,15 @@ public class Ball : MonoBehaviour
             Debug.Log("Bounce boy bounce!");
         }
       
+    }
+
+    private void OnBecameInvisible()
+    {
+        if (complete == false) 
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        
     }
 
 }
