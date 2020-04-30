@@ -33,13 +33,13 @@ public class Ball : MonoBehaviour
 
             if (touch.phase == TouchPhase.Began)
             {
-                touchStartingPosition = Input.GetTouch(0).position;
+                touchStartingPosition = touch.position;
             }
             else if (touch.phase == TouchPhase.Ended)
             {
                 if (canMove)
                 {
-                    touchEndingPosition = Input.GetTouch(0).position;
+                    touchEndingPosition = touch.position;
                     rb.isKinematic = false;
                     rb.AddForce(force * (touchStartingPosition - touchEndingPosition));
                     canMove = false;
@@ -51,8 +51,20 @@ public class Ball : MonoBehaviour
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
 
+            /*
+             if (touchStartingPosition.y < -3.5)
+            {
+                if (touchStartingPosition.x - touchEndingPosition.x < 0)
+                {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+                }
+            }
+            */
+
         }
+
     }
+    
       void OnMouseUp()
     {
         if (canMove)

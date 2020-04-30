@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayButton : MonoBehaviour
+public class backButton : MonoBehaviour
 {
     public void onClick()
     {
-        SceneManager.LoadScene(PlayerPrefs.GetInt("levelsUnlocked")+1);
+        SceneManager.LoadScene(0);
     }
 }
